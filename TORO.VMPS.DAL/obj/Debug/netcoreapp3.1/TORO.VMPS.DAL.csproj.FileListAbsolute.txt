@@ -1,0 +1,7 @@
+E:\Project_VMPS\TORO.VMPS\TORO.VMPS.DAL\bin\Debug\netcoreapp3.1\TORO.VMPS.DAL.deps.json
+E:\Project_VMPS\TORO.VMPS\TORO.VMPS.DAL\bin\Debug\netcoreapp3.1\TORO.VMPS.DAL.dll
+E:\Project_VMPS\TORO.VMPS\TORO.VMPS.DAL\obj\Debug\netcoreapp3.1\TORO.VMPS.DAL.AssemblyInfoInputs.cache
+E:\Project_VMPS\TORO.VMPS\TORO.VMPS.DAL\obj\Debug\netcoreapp3.1\TORO.VMPS.DAL.AssemblyInfo.cs
+E:\Project_VMPS\TORO.VMPS\TORO.VMPS.DAL\bin\Debug\netcoreapp3.1\TORO.VMPS.DAL.pdb
+E:\Project_VMPS\TORO.VMPS\TORO.VMPS.DAL\obj\Debug\netcoreapp3.1\TORO.VMPS.DAL.dll
+E:\Project_VMPS\TORO.VMPS\TORO.VMPS.DAL\obj\Debug\netcoreapp3.1\TORO.VMPS.DAL.pdb

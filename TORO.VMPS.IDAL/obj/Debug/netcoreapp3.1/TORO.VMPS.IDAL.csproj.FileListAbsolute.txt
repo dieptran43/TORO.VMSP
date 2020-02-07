@@ -1,0 +1,8 @@
+E:\Project_VMPS\TORO.VMPS\TORO.VMPS.IDAL\bin\Debug\netcoreapp3.1\TORO.VMPS.IDAL.deps.json
+E:\Project_VMPS\TORO.VMPS\TORO.VMPS.IDAL\bin\Debug\netcoreapp3.1\TORO.VMPS.IDAL.dll
+E:\Project_VMPS\TORO.VMPS\TORO.VMPS.IDAL\bin\Debug\netcoreapp3.1\TORO.VMPS.IDAL.pdb
+E:\Project_VMPS\TORO.VMPS\TORO.VMPS.IDAL\obj\Debug\netcoreapp3.1\TORO.VMPS.IDAL.csprojAssemblyReference.cache
+E:\Project_VMPS\TORO.VMPS\TORO.VMPS.IDAL\obj\Debug\netcoreapp3.1\TORO.VMPS.IDAL.AssemblyInfoInputs.cache
+E:\Project_VMPS\TORO.VMPS\TORO.VMPS.IDAL\obj\Debug\netcoreapp3.1\TORO.VMPS.IDAL.AssemblyInfo.cs
+E:\Project_VMPS\TORO.VMPS\TORO.VMPS.IDAL\obj\Debug\netcoreapp3.1\TORO.VMPS.IDAL.dll
+E:\Project_VMPS\TORO.VMPS\TORO.VMPS.IDAL\obj\Debug\netcoreapp3.1\TORO.VMPS.IDAL.pdb

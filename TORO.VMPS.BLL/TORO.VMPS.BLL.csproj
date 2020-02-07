@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TORO.VMPS.DAL\TORO.VMPS.DAL.csproj" />
+    <ProjectReference Include="..\TORO.VMPS.IBLL\TORO.VMPS.IBLL.csproj" />
+  </ItemGroup>
+
+</Project>

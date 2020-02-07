@@ -1,0 +1,11 @@
+E:\Project_VMPS\TORO.VMPS\TORO.VMPS.IBLL\obj\Debug\netcoreapp3.1\TORO.VMPS.IBLL.AssemblyInfoInputs.cache
+E:\Project_VMPS\TORO.VMPS\TORO.VMPS.IBLL\obj\Debug\netcoreapp3.1\TORO.VMPS.IBLL.AssemblyInfo.cs
+E:\Project_VMPS\TORO.VMPS\TORO.VMPS.IBLL\bin\Debug\netcoreapp3.1\TORO.VMPS.IBLL.deps.json
+E:\Project_VMPS\TORO.VMPS\TORO.VMPS.IBLL\bin\Debug\netcoreapp3.1\TORO.VMPS.IBLL.dll
+E:\Project_VMPS\TORO.VMPS\TORO.VMPS.IBLL\bin\Debug\netcoreapp3.1\TORO.VMPS.IBLL.pdb
+E:\Project_VMPS\TORO.VMPS\TORO.VMPS.IBLL\bin\Debug\netcoreapp3.1\TORO.VMPS.DAL.dll
+E:\Project_VMPS\TORO.VMPS\TORO.VMPS.IBLL\bin\Debug\netcoreapp3.1\TORO.VMPS.DAL.pdb
+E:\Project_VMPS\TORO.VMPS\TORO.VMPS.IBLL\obj\Debug\netcoreapp3.1\TORO.VMPS.IBLL.csprojAssemblyReference.cache
+E:\Project_VMPS\TORO.VMPS\TORO.VMPS.IBLL\obj\Debug\netcoreapp3.1\TORO.VMPS.IBLL.csproj.CopyComplete
+E:\Project_VMPS\TORO.VMPS\TORO.VMPS.IBLL\obj\Debug\netcoreapp3.1\TORO.VMPS.IBLL.dll
+E:\Project_VMPS\TORO.VMPS\TORO.VMPS.IBLL\obj\Debug\netcoreapp3.1\TORO.VMPS.IBLL.pdb

@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TORO.VMPS", "TORO.VMPS\TORO.VMPS.csproj", "{879C35DB-9C44-479C-876B-5F1B3F27E860}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TORO.VMPS.DAL", "TORO.VMPS.DAL\TORO.VMPS.DAL.csproj", "{149BC8A7-4992-43EF-AC28-3BB62AC72971}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TORO.VMPS.BLL", "TORO.VMPS.BLL\TORO.VMPS.BLL.csproj", "{1C6C6CBA-E08B-4E02-B42D-43D854C5329A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TORO.VMPS.IBLL", "TORO.VMPS.IBLL\TORO.VMPS.IBLL.csproj", "{6C65DA5E-695D-4D78-9503-B870FEEB65F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TORO.VMPS.IDAL", "TORO.VMPS.IDAL\TORO.VMPS.IDAL.csproj", "{B91DF80D-B5FC-4FD0-BADB-28BE6AEB597B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TORO.VMPS.Utilities", "TORO.VMPS.Utilities\TORO.VMPS.Utilities.csproj", "{25A27AEF-108F-48F6-AAC6-24A63A8A292C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{879C35DB-9C44-479C-876B-5F1B3F27E860}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{879C35DB-9C44-479C-876B-5F1B3F27E860}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{879C35DB-9C44-479C-876B-5F1B3F27E860}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{879C35DB-9C44-479C-876B-5F1B3F27E860}.Release|Any CPU.Build.0 = Release|Any CPU
+		{149BC8A7-4992-43EF-AC28-3BB62AC72971}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{149BC8A7-4992-43EF-AC28-3BB62AC72971}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{149BC8A7-4992-43EF-AC28-3BB62AC72971}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{149BC8A7-4992-43EF-AC28-3BB62AC72971}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C6C6CBA-E08B-4E02-B42D-43D854C5329A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C6C6CBA-E08B-4E02-B42D-43D854C5329A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C6C6CBA-E08B-4E02-B42D-43D854C5329A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C6C6CBA-E08B-4E02-B42D-43D854C5329A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C65DA5E-695D-4D78-9503-B870FEEB65F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C65DA5E-695D-4D78-9503-B870FEEB65F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C65DA5E-695D-4D78-9503-B870FEEB65F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C65DA5E-695D-4D78-9503-B870FEEB65F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B91DF80D-B5FC-4FD0-BADB-28BE6AEB597B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B91DF80D-B5FC-4FD0-BADB-28BE6AEB597B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B91DF80D-B5FC-4FD0-BADB-28BE6AEB597B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B91DF80D-B5FC-4FD0-BADB-28BE6AEB597B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25A27AEF-108F-48F6-AAC6-24A63A8A292C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25A27AEF-108F-48F6-AAC6-24A63A8A292C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25A27AEF-108F-48F6-AAC6-24A63A8A292C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25A27AEF-108F-48F6-AAC6-24A63A8A292C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {702C6C97-8C74-489B-97B7-5B5382D35DE8}
+	EndGlobalSection
+EndGlobal

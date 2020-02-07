@@ -1,0 +1,48 @@
+﻿dotnet new webapi -n DockerAPI
+code -r DockerAPI
+dotnet build
+dotnet run
+
+create file name is "Dockerfile"
+it is content:
+"""
+FROM mcr.microsoft.com/dotnet/core/sdk:3.1 as build-env
+WORKDIR /app
+
+COPY *.csproj ./
+RUN dotnet restore
+
+COPY . ./
+RUN dotnet publish -c Release -o out
+
+#Generate runtime image
+FROM mcr.microsoft.com/dotnet/core/aspnet:3.1
+WORKDIR /app
+EXPOSE 80
+COPY --from=build-env /app/out .
+ENTRYPOINT [ "dotnet", "DockerAPI.dll" ]
+
+"""
+check
+docker --version
+docker build -t diepdocker/dockerapi . (remember .)
+xem image
+docker images
+run:
+docker run -p 8088:80 diepdocker/dockerapi
+check container is running:
+docker ps
+Stop docker container:
+
+docker stop <Image ID>
+Login docker hub, sau do push len docker hub
+docker push diepdocker/dockerapi
+
+
+
+
+
+
+
+
+

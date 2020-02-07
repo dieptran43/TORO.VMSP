@@ -1,0 +1,8 @@
+E:\Project_VMPS\TORO.VMPS\TORO.VMPS.Utilities\bin\Debug\netcoreapp3.1\TORO.VMPS.Utilities.deps.json
+E:\Project_VMPS\TORO.VMPS\TORO.VMPS.Utilities\bin\Debug\netcoreapp3.1\TORO.VMPS.Utilities.dll
+E:\Project_VMPS\TORO.VMPS\TORO.VMPS.Utilities\bin\Debug\netcoreapp3.1\TORO.VMPS.Utilities.pdb
+E:\Project_VMPS\TORO.VMPS\TORO.VMPS.Utilities\obj\Debug\netcoreapp3.1\TORO.VMPS.Utilities.AssemblyInfoInputs.cache
+E:\Project_VMPS\TORO.VMPS\TORO.VMPS.Utilities\obj\Debug\netcoreapp3.1\TORO.VMPS.Utilities.AssemblyInfo.cs
+E:\Project_VMPS\TORO.VMPS\TORO.VMPS.Utilities\obj\Debug\netcoreapp3.1\TORO.VMPS.Utilities.dll
+E:\Project_VMPS\TORO.VMPS\TORO.VMPS.Utilities\obj\Debug\netcoreapp3.1\TORO.VMPS.Utilities.pdb
+E:\Project_VMPS\TORO.VMPS\TORO.VMPS.Utilities\obj\Debug\netcoreapp3.1\TORO.VMPS.Utilities.csprojAssemblyReference.cache
