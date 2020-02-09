@@ -17,6 +17,7 @@ using Newtonsoft.Json.Serialization;
 using TORO.VMPS.BLL;
 using TORO.VMPS.DAL.DbContexts;
 using TORO.VMPS.IBLL;
+using TORO.VMPS.Models;
 
 namespace TORO.VMPS
 {
@@ -69,19 +70,30 @@ namespace TORO.VMPS
             services.AddDbContext<CourseLibraryContext>(options =>
             {
                 //options.UseSqlServer(
-                //    @"Server=(localdb)\mssqllocaldb;Database=CourseLibraryDB;Trusted_Connection=True;");
-                options.UseSqlServer(
-                    @"Server=DESKTOP-29I34GN\SQLEXPRESS;Database=CourseLibraryDB;Trusted_Connection=True;");
+                //    @"Server=.\SQLEXPRESS;Database=CourseLibraryDB;Trusted_Connection=True;");
+                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
             });
 
             services.AddSwaggerGen((options) => {
                 options.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "My Api", Version = "v1" });
                 //options.SwaggerDoc("v2", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "My Api 2", Version = "v2" });
             });
+
+            //New unit of work
+            services.AddScoped<IOrderService, OrderService>();
+            services.AddScoped<IOrderDetailsService, OrderDetailsService>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
+
+            //Add config email
+            var emailConfig = Configuration
+            .GetSection("EmailConfiguration")
+            .Get<EmailConfiguration>();
+            services.AddSingleton(emailConfig);
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, ILogger<Startup> logger, CourseLibraryContext context)
         {
             app.UseSwagger();
             app.UseSwaggerUI(c => {
@@ -91,6 +103,7 @@ namespace TORO.VMPS
 
             if (env.IsDevelopment())
             {
+                logger.LogInformation("In Development environment");
                 app.UseDeveloperExceptionPage();
             }
             else
@@ -115,6 +128,8 @@ namespace TORO.VMPS
             {
                 endpoints.MapControllers();
             });
+
+            DbInitializer.Initialize(context);
         }
     }
 }

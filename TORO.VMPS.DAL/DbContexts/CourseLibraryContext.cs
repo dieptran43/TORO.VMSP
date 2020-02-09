@@ -15,6 +15,8 @@ namespace TORO.VMPS.DAL.DbContexts
 
         public DbSet<Author> Authors { get; set; }
         public DbSet<Course> Courses { get; set; }
+        public DbSet<Order> Orders { get; set; }
+        public DbSet<OrderDetails> OrderDetails { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
