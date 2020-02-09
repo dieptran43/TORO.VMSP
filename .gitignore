@@ -1,0 +1,8 @@
+/.vs/TORO.VMPS/DesignTimeBuild
+/.vs/TORO.VMPS/v16/Server/sqlite3/*.lock
+/.vs/TORO.VMPS/v16/Server/sqlite3/*.ide
+/.vs/TORO.VMPS/v16/Server/sqlite3/*.ide-shm
+/.vs/TORO.VMPS/v16/Server/sqlite3/*.ide-wal
+/TORO.VMPS.DAL/obj/Debug/netcoreapp3.1/*.CopyComplete
+/TORO.VMPS.DAL/bin
+/TORO.VMPS.DAL/obj
