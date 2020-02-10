@@ -6,3 +6,14 @@
 /TORO.VMPS.DAL/obj/Debug/netcoreapp3.1/*.CopyComplete
 /TORO.VMPS.DAL/bin
 /TORO.VMPS.DAL/obj
+/TORO.VMPS.DAL/bin/Debug/netcoreapp3.1/TORO.VMPS.DAL.deps.json
+/TORO.VMPS.DAL/obj/Debug/netcoreapp3.1/TORO.VMPS.DAL.csproj.FileListAbsolute.txt
+/TORO.VMPS.DAL/obj/TORO.VMPS.DAL.csproj.nuget.dgspec.json
+/TORO.VMPS.DAL/obj/project.assets.json
+/TORO.VMPS.IBLL/bin/Debug/netcoreapp3.1/TORO.VMPS.IBLL.deps.json
+/TORO.VMPS.IBLL/obj/Debug/netcoreapp3.1/TORO.VMPS.IBLL.csproj.FileListAbsolute.txt
+/TORO.VMPS.IBLL/obj/TORO.VMPS.IBLL.csproj.nuget.dgspec.json
+/TORO.VMPS.IBLL/obj/project.assets.json
+/TORO.VMPS.IDAL/obj/Debug/netcoreapp3.1/TORO.VMPS.IDAL.csproj.FileListAbsolute.txt
+/TORO.VMPS/obj/Debug/netcoreapp3.1/TORO.VMPS.csproj.FileListAbsolute.txt
+/TORO.VMPS/obj/project.assets.json
