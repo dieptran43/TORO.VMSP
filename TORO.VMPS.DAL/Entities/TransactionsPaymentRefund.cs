@@ -6,6 +6,7 @@ namespace TORO.VMPS.DAL.Entities
 {
     public class TransactionsPaymentRefund
     {
+        [Key]
         public long TransactionsPaymentRefundId { get; set; }
 
         public long TransactionsPaymentId { get; set; }

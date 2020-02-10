@@ -7,6 +7,7 @@ namespace TORO.VMPS.DAL.Entities
 {
     public class TransactionsCashDetail
     {
+        [Key]
         public long CashTransactionId { get; set; }
 
         public string CashTransactionCode { get; set; }
