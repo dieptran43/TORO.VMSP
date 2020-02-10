@@ -18,6 +18,7 @@ using TORO.VMPS.BLL;
 using TORO.VMPS.DAL.DbContexts;
 using TORO.VMPS.IBLL;
 using TORO.VMPS.Models;
+using Serilog;
 
 namespace TORO.VMPS
 {
@@ -119,6 +120,8 @@ namespace TORO.VMPS
             }
 
             app.UseHttpsRedirection();
+
+            app.UseSerilogRequestLogging();
 
             app.UseRouting();
 
