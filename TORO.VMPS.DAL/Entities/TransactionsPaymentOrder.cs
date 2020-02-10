@@ -7,6 +7,7 @@ namespace TORO.VMPS.DAL.Entities
 {
     public class TransactionsPaymentOrder
     {
+        [Key]
         public long TransactionsPaymentId { get; set; }
 
         [MaxLength(50)]

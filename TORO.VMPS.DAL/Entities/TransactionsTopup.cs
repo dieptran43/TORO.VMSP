@@ -7,6 +7,7 @@ namespace TORO.VMPS.DAL.Entities
 {
     public class TransactionsTopup
     {
+        [Key]
         public long TransactionsTopupId { get; set; }
 
         /// <summary>
