@@ -38,3 +38,8 @@ TORO.VMPS.BLL/obj/Debug/netcoreapp3.1/TORO.VMPS.BLL.csprojAssemblyReference.cach
 TORO.VMPS.BLL/obj/Debug/netcoreapp3.1/TORO.VMPS.BLL.assets.cache
 TORO.VMPS.BLL/obj/Debug/netcoreapp3.1/TORO.VMPS.BLL.AssemblyInfoInputs.cache
 .vs/TORO.VMPS/v16/.suo
+TORO.VMPS.BLL/obj
+TORO.VMPS/obj
+TORO.VMPS.Utilities/obj
+TORO.VMPS.IBLL/obj
+TORO.VMPS.IDAL/obj
