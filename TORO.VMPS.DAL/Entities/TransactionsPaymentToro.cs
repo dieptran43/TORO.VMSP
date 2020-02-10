@@ -4,7 +4,7 @@ using System.Text;
 
 namespace TORO.VMPS.DAL.Entities
 {
-    public class TransactionPaymentToro
+    public class TransactionsPaymentToro
     {
         public long TransactionId { get; set; }
     }

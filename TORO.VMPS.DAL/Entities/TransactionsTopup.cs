@@ -5,7 +5,7 @@ using System.Text;
 
 namespace TORO.VMPS.DAL.Entities
 {
-    public class TransactionTopup
+    public class TransactionsTopup
     {
         public long TransactionsTopupId { get; set; }
 
