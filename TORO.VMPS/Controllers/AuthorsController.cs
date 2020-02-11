@@ -19,14 +19,16 @@ namespace TORO.VMPS.Models
     {
         private readonly ICourseLibraryRepository _courseLibraryRepository;
         private readonly IMapper _mapper;
+        private ILogger<AuthorsController> _logger;
 
         public AuthorsController(ICourseLibraryRepository courseLibraryRepository,
-            IMapper mapper)
+            IMapper mapper, ILogger<AuthorsController> logger)
         {
             _courseLibraryRepository = courseLibraryRepository ??
                 throw new ArgumentNullException(nameof(courseLibraryRepository));
             _mapper = mapper ??
                 throw new ArgumentNullException(nameof(mapper));
+            _logger = logger;
         }
 
         [HttpGet()]
@@ -41,10 +43,12 @@ namespace TORO.VMPS.Models
         [HttpGet("{authorId}", Name = "GetAuthor")]
         public IActionResult GetAuthor(Guid authorId)
         {
+            _logger.LogInformation("Test log GetAuthor By Id");
             var authorFromRepo = _courseLibraryRepository.GetAuthor(authorId);
 
             if (authorFromRepo == null)
             {
+                _logger.LogError("We caught this exception in GetAuthor(Guid authorId) case authorFromRepo == null");
                 return NotFound();
             }
 
@@ -86,38 +90,6 @@ namespace TORO.VMPS.Models
             _courseLibraryRepository.Save();
 
             return NoContent();
-        }
-
-        // Log - HALE
-        private readonly ILogger<AuthorsController> _logger;
-
-        public AuthorsController(ILogger<AuthorsController> logger)
-        {
-            _logger = logger;
-        }
-
-        public void OnGet()
-        {
-            _logger.LogInformation("You requested the Index page");
-
-            try
-            {
-                for (int i = 0; i < 100; i++)
-                {
-                    if (i == 56)
-                    {
-                        throw new Exception("This is our demo exception");
-                    }
-                    else
-                    {
-                        _logger.LogInformation("The value of i is {LoopCountValue}", i);
-                    }
-                }
-            }
-            catch (Exception ex)
-            {
-                _logger.LogError(ex, "We caught this exception in the Index Get call");
-            }
         }
     }
 }
